@@ -1,0 +1,17 @@
+ .box3{height : 100px;
+            width: 100px;
+            background-color:mediumaquamarine; 
+            color:white; 
+            border-radius: 20px;
+            text-align: center;
+            padding-top:  0.1%;
+        padding-left: 0.1%;
+    padding-right: 0.1%;
+padding-bottom: 0.1%; 
+border-style: solid;
+border-color: bisque;
+}
+body{
+    background-color:beige;
+    background-image:url(p.jpeg);
+}

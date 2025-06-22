@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .box{
+            background:white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+            text-align: center  ;
+        }
+        input{
+            padding: 20px;
+            margin: 5px;
+            width: 200px;
+            font: size 20px;
+            border-radius: 10px ;
+            border: 1px solid #ccc;
+        }
+        button{
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 10px;
+            background-color: gray;
+            color:whitesmoke;
+            border: navajowhite;
+            border-radius:0.1px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: antiquewhite;
+
+        }
+        #result
+        {
+            margin-top: 8px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Sum Calculator</h1>
+        <input id="num1" type="number" placeholder="enter first no"><br>
+        <br>
+        <input id="num2" type="number" placeholder="enter second no"><br><br>
+        <button onclick="calculate()">Add</button>
+        <p id="result">Result = </p>
+
+    </div>
+    <script>
+        function calculate()
+        {
+            var n1=document.getElementById("num1").value;
+
+         var n2=document.getElementById("num2").value;
+         var sum=Number(n1)+Number(n2);
+         document.getElementById("result").innerText="Result = " + sum;
+        }
+            
+    </script>
+</body>
+</html>

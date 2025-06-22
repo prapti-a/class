@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prapti's Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+</head>
+<body>
+    <div id="preloader">
+  <div class="spinner"></div>
+</div>
+
+  <header>
+    <nav>
+      <h1><i class="fas fa-leaf"></i> Prapti</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="toggleTheme"><i class="fas fa-moon"></i></button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Background video (optional, replace sunset.jpeg if video is available) -->
+  <section class="hero" data-aos="fade-up">
+    <!-- For image: background is in CSS -->
+    <!-- For video: uncomment below and add your own acharya.mov -->
+    <!--
+    <video autoplay muted loop id="bg-video">
+      <source src="acharya.mov" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    -->
+    <div class="hero-text">
+        
+      <h2>Hello, I'm Prapti Acharya</h2>
+      <p><span id="typing"></span></p>
+    </div>
+    <!-- After a section -->
+
+
+
+  </section>
+
+  <section id="about" class="section" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate and curious individual excited to begin my journey into university life.
+      I love exploring new ideas, solving problems, and expressing myself through creative projects.
+    </p>
+    <a href="resume.pdf" download class="btn-download"><i class="fas fa-download"></i> Download Resume</a>
+  </section>
+
+  <section id="journey" class="section" data-aos="zoom-in-up">
+    <h2>My Journey to University</h2>
+    <div class="timeline">
+      <div class="timeline-item">🎒 School Days: Built my foundation in science and creativity.</div>
+      <div class="timeline-item">📚 High School: Discovered my love for tech, design, and innovation.</div>
+      <div class="timeline-item">🎓 Now: Preparing for university with excitement and goals!</div>
+    </div>
+  </section>
+
+  <section id="hobbies" class="section">
+  <h2>My Hobbies</h2>
+  <div class="card-container">
+    <div class="card">Dancing</div>
+    <div class="card">Exploring Places</div>
+    <div class="card">Coding</div>
+    <div class="card">Photography</div>
+    <div class="card">Listening to Music</div>
+    <div class="card">Designing</div>
+    <div class="card">Cooking</div>
+  </div>
+</section>
+
+
+  <section id="projects" class="section" data-aos="zoom-in">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3><i class="fas fa-globe"></i> Portfolio Website</h3>
+        <p>A personal website made with HTML, CSS, and JS.</p>
+      </div>
+      <div class="project-card">
+        <h3><i class="fas fa-images"></i> Photo Gallery</h3>
+        <p>A creative digital album with my best shots.</p>
+      </div>
+    </div>
+  </section>
+<section id="quote" class="section">
+  <blockquote>
+    “Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.”  
+    <span>– Christian D. Larson</span>
+  </blockquote>
+</section>
+
+  <section id="contact" class="section" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Prapti Acharya. All rights reserved.</p>
+    <div class="socials">
+      <a href="https://www.facebook.com/prapti.acharya.720003/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/pr__aptii?igsh=YXFydnh0ZXR1M3Jk&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/prapti-a" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>AOS.init();</script>
+  <button id="scrollTopBtn" title="Back to top">↑</button>
+
+</body>
+</html>

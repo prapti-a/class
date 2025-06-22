@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+</head>
+
+<body>
+    <button
+    class="showMessage"
+    id="ShowMessage"
+    onclick="showMessage()"> Click me</button>
+    <br>
+    <br>
+    <hr>
+    
+    <div class="message"
+    id="message">
+    You pressed the button
+</div>
+    <script>
+        function showMessage()
+        document.getElementById("message").style.display="block";
+        {
+        a=2;
+        b=3;
+        sum=a+b;
+//alert("total sum is"+sum)
+        document.getElementById("showMessage").innerHTML = " Total sum :" + sum;
+        }
+    </script>
+</body>
+</html>
